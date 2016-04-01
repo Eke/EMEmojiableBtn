@@ -1,11 +1,11 @@
 source 'https://github.com/CocoaPods/Specs.git'
-use_frameworks!
+#use_frameworks!
 
-target 'EMEmojiableBtn_Example', :exclusive => true do
+target 'EMEmojiableBtn_Example' do
   pod 'EMEmojiableBtn', :path => '../'
 end
 
-target 'EMEmojiableBtn_Tests', :exclusive => true do
+target 'EMEmojiableBtn_Tests' do
   pod 'EMEmojiableBtn', :path => '../'
 
   

@@ -1,0 +1,16 @@
+PODS:
+  - EMEmojiableBtn (0.1.0)
+
+DEPENDENCIES:
+  - EMEmojiableBtn (from `../`)
+
+EXTERNAL SOURCES:
+  EMEmojiableBtn:
+    :path: ../
+
+SPEC CHECKSUMS:
+  EMEmojiableBtn: 11d640a8df4aba504fa9d54183ff152db5fa225f
+
+PODFILE CHECKSUM: 5be6d0301c2593f05b3e7547879a0d494e7a2739
+
+COCOAPODS: 1.0.0.beta.6
