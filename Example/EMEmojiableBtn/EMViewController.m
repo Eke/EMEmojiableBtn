@@ -20,6 +20,7 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    BOOL withConfig = YES;
     
     dataSetArray = @[
                      [[EMEmojiableOption alloc] initWithImage:@"img_1" withName:@"dislike"],
@@ -30,7 +31,13 @@
                      [[EMEmojiableOption alloc] initWithImage:@"img_6" withName:@"dislike"]
                      ];
     
-    theButton = [[EMEmojiableBtn alloc] initWithFrame:CGRectMake(20, 150, 52.0, 52.0)];
+    if(withConfig){
+        EMEmojiableBtnConfig *config = [[EMEmojiableBtnConfig alloc] init];
+        theButton = [[EMEmojiableBtn alloc] initWithFrame:CGRectMake(20, 150, 52.0, 52.0) withConfig:config];
+    }else{
+        theButton = [[EMEmojiableBtn alloc] initWithFrame:CGRectMake(20, 150, 52.0, 52.0)];
+    }
+    
     theButton.delegate = self;
     theButton.dataset = dataSetArray;
     [theButton setImage:[UIImage imageNamed:@"img_1"] forState:UIControlStateNormal];

@@ -9,28 +9,6 @@
 #import "EMEmojiableBtn.h"
 #import "EMEmojiableInformationView.h"
 
-@interface EMEmojiableBtnConfig : NSObject
-@property (assign,nonatomic) CGFloat size;
-@property (assign,nonatomic) CGFloat maxSize;
-@property (assign,nonatomic) CGFloat minSize;
-@property (assign,nonatomic) CGFloat spacing;
-@property (assign,nonatomic) CGFloat s_options_selector;
-@end
-
-@implementation EMEmojiableBtnConfig
-- (instancetype)init{
-    self = [super init];
-    if(self){
-        self.spacing            = 6;
-        self.size               = 40;
-        self.minSize            = 34;
-        self.maxSize            = 80;
-        self.s_options_selector = 30;
-    }
-    return self;
-}
-@end
-
 @interface EMEmojiableBtn()
 @property (nonatomic,strong) EMEmojiableBtnConfig *config;
 @property (strong,nonatomic) UIView *selectorBgView;
@@ -58,6 +36,14 @@
 
 - (instancetype)initWithFrame:(CGRect)frame{
     if(self = [super initWithFrame:frame]){
+        [self privateInit];
+    }
+    return self;
+}
+
+- (instancetype)initWithFrame:(CGRect)frame withConfig:(EMEmojiableBtnConfig*)conf{
+    if(self = [super initWithFrame:frame]){
+        self.config = conf;
         [self privateInit];
     }
     return self;

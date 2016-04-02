@@ -8,11 +8,14 @@
 
 #import <UIKit/UIKit.h>
 #import "EMEmojiableOption.h"
+#import "EMEmojiableBtnConfig.h"
 
 @protocol EMEmojiableBtnDelegate;
 @interface EMEmojiableBtn : UIButton
 @property (strong,nonatomic) NSArray<EMEmojiableOption *> *dataset;
 @property (weak,readwrite) id <EMEmojiableBtnDelegate> delegate;
+
+- (instancetype)initWithFrame:(CGRect)frame withConfig:(EMEmojiableBtnConfig*)conf;
 @end
 
 @protocol EMEmojiableBtnDelegate <NSObject>
