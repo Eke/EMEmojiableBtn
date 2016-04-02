@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-There's also an [Swift implementation](https://raw.githubusercontent.com/lojals/JOEmojiableBtn) developed by [lojals](https://raw.githubusercontent.com/lojals).
+There's also an [Swift implementation](https://github.com/lojals/JOEmojiableBtn) developed by [lojals](https://github.com/lojals).
 
 
 ## Installation
