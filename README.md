@@ -20,6 +20,46 @@ it, simply add the following line to your Podfile:
 pod "EMEmojiableBtn"
 ```
 
+**Swift version available [here](https://github.com/lojals/JOEmojiableBtn/)**
+
+## Usage
+
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+
+## Installation
+
+JOEmojiableBtn is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+```ruby
+pod "JOEmojiableBtn"
+```
+
+
+## Examples
+
+### 1. Basic Instance
+
+#### Example Code
+
+```objc
+EMEmojiableBtn *button = [[EMEmojiableBtn alloc] initWithFrame:CGRectMake(20, 150, 52.0, 52.0)];
+button.delegate = self;
+button.dataset = @[
+    [[EMEmojiableOption alloc] initWithImage:@"img_1" withName:@"dislike"],
+    [[EMEmojiableOption alloc] initWithImage:@"img_2" withName:@"broken"],
+    [[EMEmojiableOption alloc] initWithImage:@"img_3" withName:@"he he"],
+    [[EMEmojiableOption alloc] initWithImage:@"img_4" withName:@"ooh"],
+    [[EMEmojiableOption alloc] initWithImage:@"img_5" withName:@"meh !"],
+    [[EMEmojiableOption alloc] initWithImage:@"img_6" withName:@"ahh !"]
+];
+[button setImage:[UIImage imageNamed:@"img_1"] forState:UIControlStateNormal];
+[self.view addSubview:button];
+```
+
+![image](http://i.imgur.com/A6Z1oTI.gif)
+
 ## Author
 
 Erekle, erekle@itdc.ge
