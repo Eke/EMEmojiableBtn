@@ -1,6 +1,6 @@
 # EMEmojiableBtn
 
-[![CI Status](http://img.shields.io/travis/Erekle/EMEmojiableBtn.svg?style=flat)](https://travis-ci.org/Erekle/EMEmojiableBtn)
+[![CI Status](http://img.shields.io/travis/Eke/EMEmojiableBtn.svg?style=flat)](https://travis-ci.org/Erekle/EMEmojiableBtn)
 [![Version](https://img.shields.io/cocoapods/v/EMEmojiableBtn.svg?style=flat)](http://cocoapods.org/pods/EMEmojiableBtn)
 [![License](https://img.shields.io/cocoapods/l/EMEmojiableBtn.svg?style=flat)](http://cocoapods.org/pods/EMEmojiableBtn)
 [![Platform](https://img.shields.io/cocoapods/p/EMEmojiableBtn.svg?style=flat)](http://cocoapods.org/pods/EMEmojiableBtn)
