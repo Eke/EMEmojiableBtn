@@ -1,0 +1,25 @@
+{
+  "name": "EMEmojiableBtn",
+  "version": "0.1.0",
+  "summary": "EMEmojiableBtn is awsome UIView",
+  "description": "EMEmojiableBtn is awsome UIViewEMEmojiableBtn is awsome UIViewEMEmojiableBtn is awsome UIViewEMEmojiableBtn is awsome UIView",
+  "homepage": "https://github.com/Eke/EMEmojiableBtn",
+  "license": "MIT",
+  "authors": {
+    "Erekle": "erekle@itdc.ge"
+  },
+  "source": {
+    "git": "https://github.com/Eke/EMEmojiableBtn.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "7.0"
+  },
+  "requires_arc": true,
+  "source_files": "Pod/Classes/**/*",
+  "resource_bundles": {
+    "EMEmojiableBtn": [
+      "Pod/Assets/*.png"
+    ]
+  }
+}

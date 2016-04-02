@@ -1,0 +1,940 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		16724A5B25EC822BC6B08B1486D06771 /* EMEmojiableBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0EAC96BD923FA7091165F95CAB1F5 /* EMEmojiableBtn.m */; };
+		1A1E2F4020135C9FF55D83DFF11E0AA5 /* EMEmojiableOption.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C69604C4D3A91ABC948A9AD28D268B /* EMEmojiableOption.m */; };
+		3DB8399D99AE254BDD938763EE00578C /* EMEmojiableInformationView.h in Headers */ = {isa = PBXBuildFile; fileRef = C444A8D137CCDCCB9E50B76BAA260EA6 /* EMEmojiableInformationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		61ADAE3FF00087D0F88854782F586179 /* EMEmojiableBtn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5AA0EAC96BD923FA7091165F95CAB1F5 /* EMEmojiableBtn.m */; };
+		66440B1E8FAD5644BEDFF2630A0E61C5 /* EMEmojiableBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F626EECD46B510BDDBC4A47183810F /* EMEmojiableBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6C4BEF760DA877567049CD74D3053DFB /* EMEmojiableInformationView.h in Headers */ = {isa = PBXBuildFile; fileRef = C444A8D137CCDCCB9E50B76BAA260EA6 /* EMEmojiableInformationView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6D54824FD7B0ACA400A113D8AE133971 /* EMEmojiableBtn-iOS8.4-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B49161694B6C4AFFFA35D6EA7DC2202 /* EMEmojiableBtn-iOS8.4-dummy.m */; };
+		6EE652F88B306E03DD3323CE0CB242E6 /* Pods-EMEmojiableBtn_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C29500D737A61C60555C422E1896A0B6 /* Pods-EMEmojiableBtn_Tests-dummy.m */; };
+		6F9A8F4CCA63B70BF406E3EAF742FE8A /* EMEmojiableOption.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C69604C4D3A91ABC948A9AD28D268B /* EMEmojiableOption.m */; };
+		801361BD895A4225902E7471858A663D /* Pods-EMEmojiableBtn_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = EF8C25145BF551AF049D72DD796C3F40 /* Pods-EMEmojiableBtn_Example-dummy.m */; };
+		81EA64AFA23E1137F9B21BF614715382 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		83A9599BD398B5FABD1E5ED84311A576 /* EMEmojiableOption.h in Headers */ = {isa = PBXBuildFile; fileRef = D07DCBD2BC6AB694AB9FBB93F6096BEE /* EMEmojiableOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FB32664480F1C148BB2DB63190774BB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		95FC127BBAD49BEDBC4BE87055D5BA1F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		AB76B0B9480D08A22775B7090B48A34F /* EMEmojiableOption.h in Headers */ = {isa = PBXBuildFile; fileRef = D07DCBD2BC6AB694AB9FBB93F6096BEE /* EMEmojiableOption.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B534DE5D6B536455D371BF5E5D6665F9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */; };
+		BEE31880D484053B0C1BF5995E823A14 /* EMEmojiableBtn-iOS7.1-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BAC596BAAF1B3590DFDA2946740FCBA7 /* EMEmojiableBtn-iOS7.1-dummy.m */; };
+		CCEB51504721901FEE5FEAEF952B7734 /* EMEmojiableBtnConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 965CFA7714F1BC0B2376FAD1CC9A30C7 /* EMEmojiableBtnConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DED524257E5FFBCDBE3B04D411017C6B /* EMEmojiableBtn.h in Headers */ = {isa = PBXBuildFile; fileRef = A2F626EECD46B510BDDBC4A47183810F /* EMEmojiableBtn.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E356EF2026E682DD8A9785049C97B892 /* EMEmojiableInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B926854EA73CC4D35C68BB92C27C5 /* EMEmojiableInformationView.m */; };
+		E3A1E97E805D07E66D833F8773549C46 /* EMEmojiableBtnConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D26290ACBD94007DE10267A8636D7 /* EMEmojiableBtnConfig.m */; };
+		E68FF6E903CE65DC288220D5CE58C0CD /* EMEmojiableInformationView.m in Sources */ = {isa = PBXBuildFile; fileRef = DE4B926854EA73CC4D35C68BB92C27C5 /* EMEmojiableInformationView.m */; };
+		E79B695FDE00A7EC7409A72753DA131E /* EMEmojiableBtnConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7A7D26290ACBD94007DE10267A8636D7 /* EMEmojiableBtnConfig.m */; };
+		FADF128D34488E1F8E0CCCC51F33F356 /* EMEmojiableBtnConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 965CFA7714F1BC0B2376FAD1CC9A30C7 /* EMEmojiableBtnConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44818CA19D9ED88FFD2C8A213D77C946 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C9512118109263EECB3EC4447A90D3F9;
+			remoteInfo = "EMEmojiableBtn-iOS8.4";
+		};
+		93FF34EB7839BC0CE47F72C010F1218E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 760B430BB8D8C38349E0F99C5F24E2A9;
+			remoteInfo = "EMEmojiableBtn-iOS7.1";
+		};
+		D3C00F12CDA59F97982704E2AD810180 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BF72D4AEEB94D838743D3EBE288138D9;
+			remoteInfo = "EMEmojiableBtn-iOS8.4-EMEmojiableBtn";
+		};
+		DC60289E8E37123B71F98D52A6A40B5D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7705C23A88F72ADCAD0F2BE56DA303F9;
+			remoteInfo = "EMEmojiableBtn-iOS7.1-EMEmojiableBtn";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		05F13C27B3A0895222E9AA709A6ECD2E /* ResourceBundle-EMEmojiableBtn-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "ResourceBundle-EMEmojiableBtn-Info.plist"; path = "../EMEmojiableBtn-iOS8.4/ResourceBundle-EMEmojiableBtn-Info.plist"; sourceTree = "<group>"; };
+		095FC220158E3EC9464138241D6EBA04 /* Pods-EMEmojiableBtn_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMEmojiableBtn_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		0B49161694B6C4AFFFA35D6EA7DC2202 /* EMEmojiableBtn-iOS8.4-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EMEmojiableBtn-iOS8.4-dummy.m"; path = "../EMEmojiableBtn-iOS8.4/EMEmojiableBtn-iOS8.4-dummy.m"; sourceTree = "<group>"; };
+		284E05D56EF842DC7C722CB08CC0E41C /* EMEmojiableBtn-iOS8.4-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EMEmojiableBtn-iOS8.4-prefix.pch"; path = "../EMEmojiableBtn-iOS8.4/EMEmojiableBtn-iOS8.4-prefix.pch"; sourceTree = "<group>"; };
+		28AE21819DB114CDD0D4BBA1FBF86720 /* ResourceBundle-EMEmojiableBtn-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EMEmojiableBtn-Info.plist"; sourceTree = "<group>"; };
+		2FA9B94AF1EF7B409E14B5186D8C5256 /* EMEmojiableBtn.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EMEmojiableBtn.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		3231082B44BD2E6240861B2CDE8D7FE9 /* libEMEmojiableBtn-iOS8.4.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libEMEmojiableBtn-iOS8.4.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3354FF5B9DBE3677584682FC1C52AD5E /* Pods-EMEmojiableBtn_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMEmojiableBtn_Tests-resources.sh"; sourceTree = "<group>"; };
+		33AB7C51ACF74A9940E18467B20CBBD5 /* Pods-EMEmojiableBtn_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMEmojiableBtn_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		4462BB3E21015A5CF3A74C720758763B /* Pods-EMEmojiableBtn_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EMEmojiableBtn_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5AA0EAC96BD923FA7091165F95CAB1F5 /* EMEmojiableBtn.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMEmojiableBtn.m; sourceTree = "<group>"; };
+		6785E77958B7EA0FDA2352BA83D1360D /* Pods-EMEmojiableBtn_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMEmojiableBtn_Example-frameworks.sh"; sourceTree = "<group>"; };
+		798975FDD64448C28FB460198C136A5C /* Pods-EMEmojiableBtn_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMEmojiableBtn_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		7A7D26290ACBD94007DE10267A8636D7 /* EMEmojiableBtnConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMEmojiableBtnConfig.m; sourceTree = "<group>"; };
+		84B3605E4D735B763CE868E5BC2791D4 /* Pods-EMEmojiableBtn_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EMEmojiableBtn_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		965CFA7714F1BC0B2376FAD1CC9A30C7 /* EMEmojiableBtnConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMEmojiableBtnConfig.h; sourceTree = "<group>"; };
+		9665A3C2101EC5E4CAEA7E12360F3F2D /* libEMEmojiableBtn-iOS7.1.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libEMEmojiableBtn-iOS7.1.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98A81C071E71552E508CC1A80642BF77 /* Pods-EMEmojiableBtn_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMEmojiableBtn_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		9F450C5E3009F7A68AA1A5BED1AD6350 /* Pods-EMEmojiableBtn_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMEmojiableBtn_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		A1420C5EDAC1886BB851D082B2E92645 /* Pods-EMEmojiableBtn_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EMEmojiableBtn_Example-resources.sh"; sourceTree = "<group>"; };
+		A2F626EECD46B510BDDBC4A47183810F /* EMEmojiableBtn.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMEmojiableBtn.h; sourceTree = "<group>"; };
+		A46D69249E912B50D6BB55CDAF0BD1CB /* EMEmojiableBtn-iOS8.4.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "EMEmojiableBtn-iOS8.4.xcconfig"; path = "../EMEmojiableBtn-iOS8.4/EMEmojiableBtn-iOS8.4.xcconfig"; sourceTree = "<group>"; };
+		A576B03C68FEEDC6B3B2F759A4053EC2 /* Pods-EMEmojiableBtn_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMEmojiableBtn_Example.release.xcconfig"; sourceTree = "<group>"; };
+		B36E9F270E0DC228966CA36C19050CBF /* libPods-EMEmojiableBtn_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMEmojiableBtn_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC596BAAF1B3590DFDA2946740FCBA7 /* EMEmojiableBtn-iOS7.1-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EMEmojiableBtn-iOS7.1-dummy.m"; sourceTree = "<group>"; };
+		C21072DD3D747C7731026CD20B0B9B0F /* EMEmojiableBtn-iOS7.1.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "EMEmojiableBtn-iOS7.1.xcconfig"; sourceTree = "<group>"; };
+		C29500D737A61C60555C422E1896A0B6 /* Pods-EMEmojiableBtn_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMEmojiableBtn_Tests-dummy.m"; sourceTree = "<group>"; };
+		C444A8D137CCDCCB9E50B76BAA260EA6 /* EMEmojiableInformationView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMEmojiableInformationView.h; sourceTree = "<group>"; };
+		CA3CD69AAB07A2898B8F342B7997E8E1 /* libPods-EMEmojiableBtn_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-EMEmojiableBtn_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D07DCBD2BC6AB694AB9FBB93F6096BEE /* EMEmojiableOption.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = EMEmojiableOption.h; sourceTree = "<group>"; };
+		D2A2821DB595858CB23B79C0984ABDC6 /* EMEmojiableBtn-iOS7.1-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EMEmojiableBtn-iOS7.1-prefix.pch"; sourceTree = "<group>"; };
+		DE4B926854EA73CC4D35C68BB92C27C5 /* EMEmojiableInformationView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMEmojiableInformationView.m; sourceTree = "<group>"; };
+		EF8C25145BF551AF049D72DD796C3F40 /* Pods-EMEmojiableBtn_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EMEmojiableBtn_Example-dummy.m"; sourceTree = "<group>"; };
+		F39BFD2B2F1EC0B2244EC79C984CAF15 /* Pods-EMEmojiableBtn_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EMEmojiableBtn_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		F8C69604C4D3A91ABC948A9AD28D268B /* EMEmojiableOption.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = EMEmojiableOption.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4704393BB1C21858E2CC7CD220B00499 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		506A2111A85DCB9BCE08A946AAF4372E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95FC127BBAD49BEDBC4BE87055D5BA1F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57DA7111D6AFBA57DE74BC637A8632D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FB32664480F1C148BB2DB63190774BB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		67F1654C369512A28FF47982AD76D7B8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B534DE5D6B536455D371BF5E5D6665F9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		773C215140B84BDA95A7A1F667EC7E0D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8BD8838637B6CAA7AAFFF4C5DADA6E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81EA64AFA23E1137F9B21BF614715382 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		112C7921E3A497328D11F4930CBBC9CA /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3997E5D2953ECDF377B85B234FDF550D /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		34F6B9F547C938D9A71921DA2E410B9A /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5862CD16273264BF41F66B02D32F557E /* Pods-EMEmojiableBtn_Example */,
+				F8E0168F4B99C63342BC0392D52962DF /* Pods-EMEmojiableBtn_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		43731AAF20F85D9C02CC6C79D59C4854 /* EMEmojiableBtn */ = {
+			isa = PBXGroup;
+			children = (
+				E5FB1379DF10D875F54C3D45A91BD03C /* Pod */,
+				9E2923F27437C84B5EACB038E8857E18 /* Support Files */,
+			);
+			name = EMEmojiableBtn;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		5862CD16273264BF41F66B02D32F557E /* Pods-EMEmojiableBtn_Example */ = {
+			isa = PBXGroup;
+			children = (
+				33AB7C51ACF74A9940E18467B20CBBD5 /* Pods-EMEmojiableBtn_Example-acknowledgements.markdown */,
+				84B3605E4D735B763CE868E5BC2791D4 /* Pods-EMEmojiableBtn_Example-acknowledgements.plist */,
+				EF8C25145BF551AF049D72DD796C3F40 /* Pods-EMEmojiableBtn_Example-dummy.m */,
+				6785E77958B7EA0FDA2352BA83D1360D /* Pods-EMEmojiableBtn_Example-frameworks.sh */,
+				A1420C5EDAC1886BB851D082B2E92645 /* Pods-EMEmojiableBtn_Example-resources.sh */,
+				798975FDD64448C28FB460198C136A5C /* Pods-EMEmojiableBtn_Example.debug.xcconfig */,
+				A576B03C68FEEDC6B3B2F759A4053EC2 /* Pods-EMEmojiableBtn_Example.release.xcconfig */,
+			);
+			name = "Pods-EMEmojiableBtn_Example";
+			path = "Target Support Files/Pods-EMEmojiableBtn_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				9A88E3CECA13A6AEBB8D07EAA217F5AC /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				D8F1EB4C148BF03012412E58898F0580 /* Products */,
+				34F6B9F547C938D9A71921DA2E410B9A /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9A88E3CECA13A6AEBB8D07EAA217F5AC /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				43731AAF20F85D9C02CC6C79D59C4854 /* EMEmojiableBtn */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		9E2923F27437C84B5EACB038E8857E18 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				C21072DD3D747C7731026CD20B0B9B0F /* EMEmojiableBtn-iOS7.1.xcconfig */,
+				BAC596BAAF1B3590DFDA2946740FCBA7 /* EMEmojiableBtn-iOS7.1-dummy.m */,
+				D2A2821DB595858CB23B79C0984ABDC6 /* EMEmojiableBtn-iOS7.1-prefix.pch */,
+				A46D69249E912B50D6BB55CDAF0BD1CB /* EMEmojiableBtn-iOS8.4.xcconfig */,
+				0B49161694B6C4AFFFA35D6EA7DC2202 /* EMEmojiableBtn-iOS8.4-dummy.m */,
+				284E05D56EF842DC7C722CB08CC0E41C /* EMEmojiableBtn-iOS8.4-prefix.pch */,
+				05F13C27B3A0895222E9AA709A6ECD2E /* ResourceBundle-EMEmojiableBtn-Info.plist */,
+				28AE21819DB114CDD0D4BBA1FBF86720 /* ResourceBundle-EMEmojiableBtn-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EMEmojiableBtn-iOS7.1";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				112C7921E3A497328D11F4930CBBC9CA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C061B122710B11728CE20F12B3BD2E42 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				A2F626EECD46B510BDDBC4A47183810F /* EMEmojiableBtn.h */,
+				5AA0EAC96BD923FA7091165F95CAB1F5 /* EMEmojiableBtn.m */,
+				965CFA7714F1BC0B2376FAD1CC9A30C7 /* EMEmojiableBtnConfig.h */,
+				7A7D26290ACBD94007DE10267A8636D7 /* EMEmojiableBtnConfig.m */,
+				C444A8D137CCDCCB9E50B76BAA260EA6 /* EMEmojiableInformationView.h */,
+				DE4B926854EA73CC4D35C68BB92C27C5 /* EMEmojiableInformationView.m */,
+				D07DCBD2BC6AB694AB9FBB93F6096BEE /* EMEmojiableOption.h */,
+				F8C69604C4D3A91ABC948A9AD28D268B /* EMEmojiableOption.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		D8F1EB4C148BF03012412E58898F0580 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2FA9B94AF1EF7B409E14B5186D8C5256 /* EMEmojiableBtn.bundle */,
+				9665A3C2101EC5E4CAEA7E12360F3F2D /* libEMEmojiableBtn-iOS7.1.a */,
+				3231082B44BD2E6240861B2CDE8D7FE9 /* libEMEmojiableBtn-iOS8.4.a */,
+				B36E9F270E0DC228966CA36C19050CBF /* libPods-EMEmojiableBtn_Example.a */,
+				CA3CD69AAB07A2898B8F342B7997E8E1 /* libPods-EMEmojiableBtn_Tests.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5FB1379DF10D875F54C3D45A91BD03C /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				C061B122710B11728CE20F12B3BD2E42 /* Classes */,
+			);
+			path = Pod;
+			sourceTree = "<group>";
+		};
+		F8E0168F4B99C63342BC0392D52962DF /* Pods-EMEmojiableBtn_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4462BB3E21015A5CF3A74C720758763B /* Pods-EMEmojiableBtn_Tests-acknowledgements.markdown */,
+				095FC220158E3EC9464138241D6EBA04 /* Pods-EMEmojiableBtn_Tests-acknowledgements.plist */,
+				C29500D737A61C60555C422E1896A0B6 /* Pods-EMEmojiableBtn_Tests-dummy.m */,
+				9F450C5E3009F7A68AA1A5BED1AD6350 /* Pods-EMEmojiableBtn_Tests-frameworks.sh */,
+				3354FF5B9DBE3677584682FC1C52AD5E /* Pods-EMEmojiableBtn_Tests-resources.sh */,
+				F39BFD2B2F1EC0B2244EC79C984CAF15 /* Pods-EMEmojiableBtn_Tests.debug.xcconfig */,
+				98A81C071E71552E508CC1A80642BF77 /* Pods-EMEmojiableBtn_Tests.release.xcconfig */,
+			);
+			name = "Pods-EMEmojiableBtn_Tests";
+			path = "Target Support Files/Pods-EMEmojiableBtn_Tests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6DB35029C50C5495E0F806719D6F7EE6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66440B1E8FAD5644BEDFF2630A0E61C5 /* EMEmojiableBtn.h in Headers */,
+				FADF128D34488E1F8E0CCCC51F33F356 /* EMEmojiableBtnConfig.h in Headers */,
+				3DB8399D99AE254BDD938763EE00578C /* EMEmojiableInformationView.h in Headers */,
+				83A9599BD398B5FABD1E5ED84311A576 /* EMEmojiableOption.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A432F36B5FF13883FB6A65DC23973526 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DED524257E5FFBCDBE3B04D411017C6B /* EMEmojiableBtn.h in Headers */,
+				CCEB51504721901FEE5FEAEF952B7734 /* EMEmojiableBtnConfig.h in Headers */,
+				6C4BEF760DA877567049CD74D3053DFB /* EMEmojiableInformationView.h in Headers */,
+				AB76B0B9480D08A22775B7090B48A34F /* EMEmojiableOption.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		05E75DB18C8A798D4AB216BFC83A18E4 /* Pods-EMEmojiableBtn_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 542AF95DAAF6398925CA605B18F48A20 /* Build configuration list for PBXNativeTarget "Pods-EMEmojiableBtn_Example" */;
+			buildPhases = (
+				2076541AF57554ED66F3BC2A1EF5C868 /* Sources */,
+				57DA7111D6AFBA57DE74BC637A8632D9 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7262C22AC705EDF16E03A625A7EF1A8C /* PBXTargetDependency */,
+			);
+			name = "Pods-EMEmojiableBtn_Example";
+			productName = "Pods-EMEmojiableBtn_Example";
+			productReference = B36E9F270E0DC228966CA36C19050CBF /* libPods-EMEmojiableBtn_Example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		760B430BB8D8C38349E0F99C5F24E2A9 /* EMEmojiableBtn-iOS7.1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 51E6BB94217C8814ED357D6F60BE298D /* Build configuration list for PBXNativeTarget "EMEmojiableBtn-iOS7.1" */;
+			buildPhases = (
+				5D941E7549A7195D549767299CE70E6C /* Sources */,
+				E8BD8838637B6CAA7AAFFF4C5DADA6E6 /* Frameworks */,
+				6DB35029C50C5495E0F806719D6F7EE6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6234D66877C0F4D8925F5EE54CFA881A /* PBXTargetDependency */,
+			);
+			name = "EMEmojiableBtn-iOS7.1";
+			productName = "EMEmojiableBtn-iOS7.1";
+			productReference = 9665A3C2101EC5E4CAEA7E12360F3F2D /* libEMEmojiableBtn-iOS7.1.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7705C23A88F72ADCAD0F2BE56DA303F9 /* EMEmojiableBtn-iOS7.1-EMEmojiableBtn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C1CF285ECCE5820821A7D70248D15632 /* Build configuration list for PBXNativeTarget "EMEmojiableBtn-iOS7.1-EMEmojiableBtn" */;
+			buildPhases = (
+				D3C352FFD5F80E26301D22BEBA7BD3AF /* Sources */,
+				4704393BB1C21858E2CC7CD220B00499 /* Frameworks */,
+				0D28A0264F968679CE58118747F70F1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EMEmojiableBtn-iOS7.1-EMEmojiableBtn";
+			productName = "EMEmojiableBtn-iOS7.1-EMEmojiableBtn";
+			productReference = 2FA9B94AF1EF7B409E14B5186D8C5256 /* EMEmojiableBtn.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		7E6A446A8E762D9152680AEA0909CD0B /* Pods-EMEmojiableBtn_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DFB3EDF8E14B6793DE79E2A9E38BAAC8 /* Build configuration list for PBXNativeTarget "Pods-EMEmojiableBtn_Tests" */;
+			buildPhases = (
+				B8CEEE75EDE0E43BF33B333678ABB0FA /* Sources */,
+				67F1654C369512A28FF47982AD76D7B8 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A366F997B3922F555733997080E77B7 /* PBXTargetDependency */,
+			);
+			name = "Pods-EMEmojiableBtn_Tests";
+			productName = "Pods-EMEmojiableBtn_Tests";
+			productReference = CA3CD69AAB07A2898B8F342B7997E8E1 /* libPods-EMEmojiableBtn_Tests.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BF72D4AEEB94D838743D3EBE288138D9 /* EMEmojiableBtn-iOS8.4-EMEmojiableBtn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 119AD7AAF3EC5A86259EF1904A405099 /* Build configuration list for PBXNativeTarget "EMEmojiableBtn-iOS8.4-EMEmojiableBtn" */;
+			buildPhases = (
+				EC2482A39449650DA5F5377DA167BAAE /* Sources */,
+				773C215140B84BDA95A7A1F667EC7E0D /* Frameworks */,
+				C4D934EB586FD428638EEDFCCE9AF30C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EMEmojiableBtn-iOS8.4-EMEmojiableBtn";
+			productName = "EMEmojiableBtn-iOS8.4-EMEmojiableBtn";
+			productReference = 2FA9B94AF1EF7B409E14B5186D8C5256 /* EMEmojiableBtn.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		C9512118109263EECB3EC4447A90D3F9 /* EMEmojiableBtn-iOS8.4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CB6852636B3C6AED4474CC949A6CF8C3 /* Build configuration list for PBXNativeTarget "EMEmojiableBtn-iOS8.4" */;
+			buildPhases = (
+				88FE1909883DF3FA668FF8ECF62DE8A6 /* Sources */,
+				506A2111A85DCB9BCE08A946AAF4372E /* Frameworks */,
+				A432F36B5FF13883FB6A65DC23973526 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				23253FB99EEBB3BA66081F35C58C69ED /* PBXTargetDependency */,
+			);
+			name = "EMEmojiableBtn-iOS8.4";
+			productName = "EMEmojiableBtn-iOS8.4";
+			productReference = 3231082B44BD2E6240861B2CDE8D7FE9 /* libEMEmojiableBtn-iOS8.4.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = D8F1EB4C148BF03012412E58898F0580 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				760B430BB8D8C38349E0F99C5F24E2A9 /* EMEmojiableBtn-iOS7.1 */,
+				7705C23A88F72ADCAD0F2BE56DA303F9 /* EMEmojiableBtn-iOS7.1-EMEmojiableBtn */,
+				C9512118109263EECB3EC4447A90D3F9 /* EMEmojiableBtn-iOS8.4 */,
+				BF72D4AEEB94D838743D3EBE288138D9 /* EMEmojiableBtn-iOS8.4-EMEmojiableBtn */,
+				05E75DB18C8A798D4AB216BFC83A18E4 /* Pods-EMEmojiableBtn_Example */,
+				7E6A446A8E762D9152680AEA0909CD0B /* Pods-EMEmojiableBtn_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0D28A0264F968679CE58118747F70F1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C4D934EB586FD428638EEDFCCE9AF30C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2076541AF57554ED66F3BC2A1EF5C868 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801361BD895A4225902E7471858A663D /* Pods-EMEmojiableBtn_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5D941E7549A7195D549767299CE70E6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BEE31880D484053B0C1BF5995E823A14 /* EMEmojiableBtn-iOS7.1-dummy.m in Sources */,
+				61ADAE3FF00087D0F88854782F586179 /* EMEmojiableBtn.m in Sources */,
+				E79B695FDE00A7EC7409A72753DA131E /* EMEmojiableBtnConfig.m in Sources */,
+				E356EF2026E682DD8A9785049C97B892 /* EMEmojiableInformationView.m in Sources */,
+				1A1E2F4020135C9FF55D83DFF11E0AA5 /* EMEmojiableOption.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88FE1909883DF3FA668FF8ECF62DE8A6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D54824FD7B0ACA400A113D8AE133971 /* EMEmojiableBtn-iOS8.4-dummy.m in Sources */,
+				16724A5B25EC822BC6B08B1486D06771 /* EMEmojiableBtn.m in Sources */,
+				E3A1E97E805D07E66D833F8773549C46 /* EMEmojiableBtnConfig.m in Sources */,
+				E68FF6E903CE65DC288220D5CE58C0CD /* EMEmojiableInformationView.m in Sources */,
+				6F9A8F4CCA63B70BF406E3EAF742FE8A /* EMEmojiableOption.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B8CEEE75EDE0E43BF33B333678ABB0FA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EE652F88B306E03DD3323CE0CB242E6 /* Pods-EMEmojiableBtn_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D3C352FFD5F80E26301D22BEBA7BD3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC2482A39449650DA5F5377DA167BAAE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		23253FB99EEBB3BA66081F35C58C69ED /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EMEmojiableBtn-iOS8.4-EMEmojiableBtn";
+			target = BF72D4AEEB94D838743D3EBE288138D9 /* EMEmojiableBtn-iOS8.4-EMEmojiableBtn */;
+			targetProxy = D3C00F12CDA59F97982704E2AD810180 /* PBXContainerItemProxy */;
+		};
+		6234D66877C0F4D8925F5EE54CFA881A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EMEmojiableBtn-iOS7.1-EMEmojiableBtn";
+			target = 7705C23A88F72ADCAD0F2BE56DA303F9 /* EMEmojiableBtn-iOS7.1-EMEmojiableBtn */;
+			targetProxy = DC60289E8E37123B71F98D52A6A40B5D /* PBXContainerItemProxy */;
+		};
+		7262C22AC705EDF16E03A625A7EF1A8C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EMEmojiableBtn-iOS8.4";
+			target = C9512118109263EECB3EC4447A90D3F9 /* EMEmojiableBtn-iOS8.4 */;
+			targetProxy = 44818CA19D9ED88FFD2C8A213D77C946 /* PBXContainerItemProxy */;
+		};
+		9A366F997B3922F555733997080E77B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EMEmojiableBtn-iOS7.1";
+			target = 760B430BB8D8C38349E0F99C5F24E2A9 /* EMEmojiableBtn-iOS7.1 */;
+			targetProxy = 93FF34EB7839BC0CE47F72C010F1218E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1DE879ACE8746F5DF3B854D99F39BC86 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46D69249E912B50D6BB55CDAF0BD1CB /* EMEmojiableBtn-iOS8.4.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EMEmojiableBtn-iOS8.4/EMEmojiableBtn-iOS8.4-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		2B498318F295631FED64273DC7E7C200 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21072DD3D747C7731026CD20B0B9B0F /* EMEmojiableBtn-iOS7.1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EMEmojiableBtn-iOS7.1/EMEmojiableBtn-iOS7.1-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		33A85D48DA5BD530FD9EF9C103717BD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 798975FDD64448C28FB460198C136A5C /* Pods-EMEmojiableBtn_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		39F96E870F595216E6EE8D90BC124DB2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A81C071E71552E508CC1A80642BF77 /* Pods-EMEmojiableBtn_Tests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		4255DD760A5A0E050DDBCC03E6EEB941 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21072DD3D747C7731026CD20B0B9B0F /* EMEmojiableBtn-iOS7.1.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EMEmojiableBtn-iOS7.1/EMEmojiableBtn-iOS7.1-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6B8FA4D4753F11CBE9E9FD97A1ECB6C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46D69249E912B50D6BB55CDAF0BD1CB /* EMEmojiableBtn-iOS8.4.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$CONFIGURATION_BUILD_DIR/EMEmojiableBtn-iOS8.4";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EMEmojiableBtn-iOS8.4/ResourceBundle-EMEmojiableBtn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = EMEmojiableBtn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		87240788BB547BF28391C5833749E533 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21072DD3D747C7731026CD20B0B9B0F /* EMEmojiableBtn-iOS7.1.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$CONFIGURATION_BUILD_DIR/EMEmojiableBtn-iOS7.1";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EMEmojiableBtn-iOS7.1/ResourceBundle-EMEmojiableBtn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = EMEmojiableBtn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		91FD1D3E842B8D3783ED5FD651C4BEE9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C21072DD3D747C7731026CD20B0B9B0F /* EMEmojiableBtn-iOS7.1.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$CONFIGURATION_BUILD_DIR/EMEmojiableBtn-iOS7.1";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EMEmojiableBtn-iOS7.1/ResourceBundle-EMEmojiableBtn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = EMEmojiableBtn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		CA05552CAAAE67A0671B8AB54AB2CC5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46D69249E912B50D6BB55CDAF0BD1CB /* EMEmojiableBtn-iOS8.4.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EMEmojiableBtn-iOS8.4/EMEmojiableBtn-iOS8.4-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EE3A0E5C873A5286624D150E506E97A0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F39BFD2B2F1EC0B2244EC79C984CAF15 /* Pods-EMEmojiableBtn_Tests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		F0C8D5E6CD413A235E9F3FDAA2C26E0A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A576B03C68FEEDC6B3B2F759A4053EC2 /* Pods-EMEmojiableBtn_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F28AB7240C46A9839F20EEA62E9A7962 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A46D69249E912B50D6BB55CDAF0BD1CB /* EMEmojiableBtn-iOS8.4.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$CONFIGURATION_BUILD_DIR/EMEmojiableBtn-iOS8.4";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EMEmojiableBtn-iOS8.4/ResourceBundle-EMEmojiableBtn-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = EMEmojiableBtn;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		119AD7AAF3EC5A86259EF1904A405099 /* Build configuration list for PBXNativeTarget "EMEmojiableBtn-iOS8.4-EMEmojiableBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F28AB7240C46A9839F20EEA62E9A7962 /* Debug */,
+				6B8FA4D4753F11CBE9E9FD97A1ECB6C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB44C5CA5E7AC762546FE4E73ED003F3 /* Debug */,
+				2C442C92732ADBDBFA54CF4EA7B71CDF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		51E6BB94217C8814ED357D6F60BE298D /* Build configuration list for PBXNativeTarget "EMEmojiableBtn-iOS7.1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4255DD760A5A0E050DDBCC03E6EEB941 /* Debug */,
+				2B498318F295631FED64273DC7E7C200 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		542AF95DAAF6398925CA605B18F48A20 /* Build configuration list for PBXNativeTarget "Pods-EMEmojiableBtn_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				33A85D48DA5BD530FD9EF9C103717BD7 /* Debug */,
+				F0C8D5E6CD413A235E9F3FDAA2C26E0A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C1CF285ECCE5820821A7D70248D15632 /* Build configuration list for PBXNativeTarget "EMEmojiableBtn-iOS7.1-EMEmojiableBtn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				87240788BB547BF28391C5833749E533 /* Debug */,
+				91FD1D3E842B8D3783ED5FD651C4BEE9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CB6852636B3C6AED4474CC949A6CF8C3 /* Build configuration list for PBXNativeTarget "EMEmojiableBtn-iOS8.4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE879ACE8746F5DF3B854D99F39BC86 /* Debug */,
+				CA05552CAAAE67A0671B8AB54AB2CC5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DFB3EDF8E14B6793DE79E2A9E38BAAC8 /* Build configuration list for PBXNativeTarget "Pods-EMEmojiableBtn_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE3A0E5C873A5286624D150E506E97A0 /* Debug */,
+				39F96E870F595216E6EE8D90BC124DB2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
