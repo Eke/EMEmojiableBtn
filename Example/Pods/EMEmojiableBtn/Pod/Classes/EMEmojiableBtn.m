@@ -240,9 +240,7 @@
 
 #pragma mark - Gestures
 - (void)singleTap{
-    if(self.delegate && [self.delegate respondsToSelector:@selector(EMEmojiableBtnSingleTap:)]){
-        [self.delegate EMEmojiableBtnSingleTap:self];
-    }
+    [self activate];
 }
 
 - (void)longTap:(UIGestureRecognizer*)gesture{

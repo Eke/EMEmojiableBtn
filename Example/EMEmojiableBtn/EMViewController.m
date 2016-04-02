@@ -60,6 +60,10 @@
     NSLog(@"Canceled");
 }
 
+- (void)EMEmojiableBtnSingleTap:(EMEmojiableBtn *)button{
+    NSLog(@"Single Tap");
+}
+
 - (void)EMEmojiableBtn:(EMEmojiableBtn *)button selectedOption:(NSUInteger)index{
     EMEmojiableOption *buttonOption = [dataSetArray objectAtIndex:index];
     [button setImage:[UIImage imageNamed:buttonOption.imageName] forState:UIControlStateNormal];

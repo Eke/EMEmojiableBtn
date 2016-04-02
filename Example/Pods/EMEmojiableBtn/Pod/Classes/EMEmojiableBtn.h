@@ -22,5 +22,4 @@
 @optional
 - (void)EMEmojiableBtn:(EMEmojiableBtn*)button selectedOption:(NSUInteger)index;
 - (void)EMEmojiableBtnCanceledAction:(EMEmojiableBtn*)button;
-- (void)EMEmojiableBtnSingleTap:(EMEmojiableBtn*)button;
 @end

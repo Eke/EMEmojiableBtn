@@ -62,7 +62,7 @@ button.dataset = @[
 
 ## Author
 
-Erekle, erekle@itdc.ge
+Erekle, ereklemesxi@gmail.com
 
 ## License
 

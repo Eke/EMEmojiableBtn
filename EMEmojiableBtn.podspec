@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "EMEmojiableBtn"
-  s.version          = "0.0.1"
+  s.version          = "0.0.2"
   s.summary          = "Option selector that works similar to Reactions by fb. Objective-c version"
 
 # This description is used to generate tags and improve search results.
@@ -23,7 +23,7 @@ Totally customizable Options (Emoji) Selector based on Reactions. Objective-c ve
   s.homepage         = "https://github.com/Eke/EMEmojiableBtn"
   # s.screenshots     = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license          = 'MIT'
-  s.author           = { "Erekle Meskhi" => "erekle@itdc.ge" }
+  s.author           = { "Erekle Meskhi" => "ereklemesxi@gmail.com" }
   s.source           = { :git => "https://github.com/Eke/EMEmojiableBtn.git", :tag => s.version.to_s }
 
   s.platform     = :ios, '8.0'
