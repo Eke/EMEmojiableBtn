@@ -9,7 +9,8 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-## Requirements
+There's also an [Swift implementation](https://raw.githubusercontent.com/lojals/JOEmojiableBtn) developed by [lojals](https://raw.githubusercontent.com/lojals).
+
 
 ## Installation
 
@@ -19,8 +20,6 @@ it, simply add the following line to your Podfile:
 ```ruby
 pod "EMEmojiableBtn"
 ```
-
-**Swift version available [here](https://github.com/lojals/JOEmojiableBtn/)**
 
 ## Examples
 
