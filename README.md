@@ -47,7 +47,7 @@ button.dataset = @[
 ### 2. Custom styled instance
 #### Example Code
 
-With this instance you can fully custom your component. Following the **JOEmojiableConfig** variables.
+With this instance you can fully custom your component. Following the **EMEmojiableBtn** variables.
 
 You can custom your selector with the following variables, used in the 
 
@@ -80,7 +80,7 @@ button.dataset = @[
 
 ![image](http://i.imgur.com/G6PmoDE.gif)
 
-#### Available customization options using `EMEmojiableBtnConfig`
+#### Available customization options using **EMEmojiableBtn**
 * `size` - Size of each available option
 * `maxSize` - Size of option when it is hilighted
 * `minSize` - Size of options when one option is hilighted. When option is hilighted other options are smaller
