@@ -12,7 +12,7 @@
 
 @protocol EMEmojiableBtnDelegate;
 @interface EMEmojiableBtn : UIButton
-@property (strong,nonatomic) NSArray<EMEmojiableOption *> *dataset;
+@property (strong,nonatomic)  NSArray * _Nonnull dataset;
 @property (weak,readwrite) id <EMEmojiableBtnDelegate> delegate;
 
 - (instancetype)initWithFrame:(CGRect)frame withConfig:(EMEmojiableBtnConfig*)conf;
@@ -20,7 +20,7 @@
 
 @protocol EMEmojiableBtnDelegate <NSObject>
 @optional
-- (void)EMEmojiableBtn:(EMEmojiableBtn*)button selectedOption:(NSUInteger)index;
-- (void)EMEmojiableBtnCanceledAction:(EMEmojiableBtn*)button;
-- (void)EMEmojiableBtnSingleTap:(EMEmojiableBtn*)button;
+- (void)EMEmojiableBtn:( EMEmojiableBtn* _Nonnull)button selectedOption:(NSUInteger)index;
+- (void)EMEmojiableBtnCanceledAction:(EMEmojiableBtn* _Nonnull)button;
+- (void)EMEmojiableBtnSingleTap:(EMEmojiableBtn* _Nonnull)button;
 @end
