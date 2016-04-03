@@ -22,7 +22,9 @@
 @property (assign,nonatomic) int selectedItem;
 @end
 
-@implementation EMEmojiableBtn
+@implementation EMEmojiableBtn{
+    NSArray *_dataset;
+}
 @synthesize selectorBgView;
 @synthesize optionsView;
 @synthesize longPressGesture;
@@ -70,7 +72,6 @@
 
 - (EMEmojiableBtnConfig*)config{
     if(_config == nil){
-        NSLog(@"Init Config");
         return self.config = [[EMEmojiableBtnConfig alloc] init];
     }
     return _config;
@@ -81,9 +82,11 @@
     if(active){
         return;
     }
-    if(self.dataset == nil){
+    if(_dataset == nil){
+        [NSException raise:@"Invalid _dataset value" format:@"_dataset can't be nil", _dataset];
         return;
     }
+    
     selectedItem = -1;
     active = YES;
     
@@ -97,22 +100,22 @@
     }
     
     selectorBgView = [[UIView alloc] initWithFrame:selectorViewFrame];
-    selectorBgView.backgroundColor = [UIColor clearColor];
+    selectorBgView.backgroundColor = self.config.backgroundColor;
     [self.superview addSubview:selectorBgView];
     
-    CGFloat buttonWidth = ((CGFloat)(self.dataset.count + 1) * self.config.spacing) +(self.config.size*(CGFloat)self.dataset.count);
+    CGFloat buttonWidth = ((CGFloat)(_dataset.count + 1) * self.config.spacing) +(self.config.size*(CGFloat)_dataset.count);
     CGFloat buttonHeight = self.config.size+(2*self.config.spacing);
     CGSize sizeBtn = CGSizeMake(buttonWidth,buttonHeight);
     
     CGRect optionsViewFrame = CGRectMake(origin.x, origin.y - sizeBtn.height, sizeBtn.width, sizeBtn.height);
     
     optionsView = [[UIView alloc] initWithFrame:optionsViewFrame];
+    optionsView.alpha               = self.config.optionsViewInitialAlpha;
     optionsView.layer.cornerRadius  = optionsView.frame.size.height/2.0;
-    optionsView.backgroundColor     = [UIColor whiteColor];
-    optionsView.layer.shadowColor   = [UIColor lightGrayColor].CGColor;
-    optionsView.layer.shadowOffset  = CGSizeMake(0.0, 0.0);
-    optionsView.layer.shadowOpacity = 0.5;
-    optionsView.alpha               = 0.3;
+    optionsView.backgroundColor     = self.config.optionsViewBackgroundColor;
+    optionsView.layer.shadowColor   = self.config.optionsViewShadowColor.CGColor;
+    optionsView.layer.shadowOffset  = self.config.optionsViewShadowOffset;
+    optionsView.layer.shadowOpacity = self.config.optionsViewShadowOpacity;
     
     [selectorBgView addSubview:optionsView];
     
@@ -123,8 +126,8 @@
         self.optionsView.alpha = 1.0;
     }];
     
-    for (int i = 0; i<self.dataset.count;++i){
-        EMEmojiableOption *option = [self.dataset objectAtIndex:i];
+    for (int i = 0; i<_dataset.count;++i){
+        EMEmojiableOption *option = [_dataset objectAtIndex:i];
         UIImageView *optionImageView = [[UIImageView alloc] initWithFrame:CGRectMake(((CGFloat)(i+1)*self.config.spacing)+(self.config.size*(CGFloat)i),sizeBtn.height*1.2,10,10)];
         optionImageView.image = [UIImage imageNamed:option.imageName];
         optionImageView.alpha = 0.6;
@@ -142,8 +145,8 @@
         } completion:nil];
     }
     
-    informationView = [[EMEmojiableInformationView alloc] initWithFrame:CGRectMake(0, origin.y, selectorViewFrame.size.width, self.frame.size.height)];
-    informationView.backgroundColor = [UIColor whiteColor];
+    informationView = [[EMEmojiableInformationView alloc] initWithFrame:CGRectMake(0, origin.y, selectorViewFrame.size.width, self.frame.size.height) withConfig:self.config];
+    informationView.backgroundColor = self.config.informationViewBackgroundColor;
     [selectorBgView addSubview:informationView];
 }
 
@@ -171,7 +174,7 @@
                 option.center     = CGPointMake(((CGFloat)idx+1.0*self.config.spacing)+(self.config.size*(CGFloat)idx)+self.config.size/2.0, self.optionsView.frame.size.height+self.config.size/2.0);
             }
         } completion:^(BOOL finished) {
-            if (finished && idx == (self.dataset.count/2)){
+            if (finished && idx == (_dataset.count/2)){
                 [UIView animateWithDuration:0.1 animations:^{
                     CGRect optionsViewFrame = optionsView.frame;
                     optionsViewFrame.origin.y = origin.y - (self.config.size+(2*self.config.spacing));
@@ -187,7 +190,7 @@
 }
 
 - (void)selectIndex:(int)index{
-    if (index < 0 || index > self.dataset.count){
+    if (index < 0 || index > _dataset.count){
         return;
     }
     
@@ -195,7 +198,7 @@
     [informationView activateInfo:NO];
     
     [UIView animateWithDuration:0.3 animations:^{
-        CGFloat buttonWidth = (((CGFloat)self.dataset.count-1*self.config.spacing)+(self.config.minSize*(CGFloat)self.dataset.count-1)+self.config.maxSize);
+        CGFloat buttonWidth = (((CGFloat)_dataset.count-1*self.config.spacing)+(self.config.minSize*(CGFloat)_dataset.count-1)+self.config.maxSize);
         CGFloat buttonHeight = self.config.minSize+(2*self.config.spacing);
         CGSize sizeBtn = CGSizeMake(buttonWidth,buttonHeight);
         
@@ -226,7 +229,7 @@
     selectedItem = -1;
     [informationView activateInfo:YES];
     [UIView animateWithDuration:0.3 animations:^{
-        CGFloat buttonWidth = (((CGFloat)self.dataset.count+1*self.config.spacing)+(self.config.size*(CGFloat)self.dataset.count));
+        CGFloat buttonWidth = (((CGFloat)_dataset.count+1*self.config.spacing)+(self.config.size*(CGFloat)_dataset.count));
         CGFloat buttonHeight = self.config.size+(2.0*self.config.spacing);
         CGSize sizeBtn = CGSizeMake(buttonWidth,buttonHeight);
         optionsView.frame = optionsViewOriginalRect;
@@ -251,11 +254,11 @@
     } else if (gesture.state == UIGestureRecognizerStateChanged){
         CGPoint point = [gesture locationInView:selectorBgView];
         
-        CGFloat t = optionsView.frame.size.width/(CGFloat)self.dataset.count;
+        CGFloat t = optionsView.frame.size.width/(CGFloat)_dataset.count;
         if (point.y < (CGRectGetMinY(optionsView.frame) - 50) || point.y > (CGRectGetMaxY(informationView.frame) + 30)){
             [self looseFocus];
         }else{
-            if (point.x-origin.x > 0 && point.x < CGRectGetMaxX(optionsView.frame)){
+            if (point.x-origin.x > 0 && point.x < CGRectGetMaxX(optionsView.frame)-30){
                 int selected = round((point.x-origin.x)/t);
                 [self selectIndex:selected];
             }else{
