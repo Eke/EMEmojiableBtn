@@ -20,7 +20,7 @@
 @property (assign,nonatomic) CGFloat maxSize;
 
 /**
- Size of options when one option it is hilighted.
+ Size of options when one option is hilighted.
  When option is hilighted other options are smaller.
  */
 @property (assign,nonatomic) CGFloat minSize;
@@ -61,7 +61,7 @@
 @property (assign,nonatomic) CGFloat optionsViewShadowOpacity;
 
 /**
- Opacity of options listing shadow
+ Offset of options listing shadow
  */
 @property (assign,nonatomic) CGSize optionsViewShadowOffset;
 
