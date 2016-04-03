@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "EMEmojiableBtn"
-  s.version          = "0.0.2"
+  s.version          = "0.0.3"
   s.summary          = "Option selector that works similar to Reactions by fb. Objective-c version"
 
 # This description is used to generate tags and improve search results.
