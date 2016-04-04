@@ -1,5 +1,5 @@
 language: objective-c
-osx_image: xcode7
+osx_image: xcode7.3
 
 # cache: 
   # directories:
@@ -13,4 +13,4 @@ xcode_workspace: Example/EMEmojiableBtn.xcworkspace
 xcode_scheme: EMEmojiableBtn-Example
 xcode_sdk: iphonesimulator
 env:
-  - XCODE_SDK=iphonesimulator8.4
+  - XCODE_SDK=iphonesimulator9.3
