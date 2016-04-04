@@ -13,4 +13,4 @@ xcode_workspace: Example/EMEmojiableBtn.xcworkspace
 xcode_scheme: EMEmojiableBtn-Example
 xcode_sdk: iphonesimulator
 env:
-  - XCODE_SDK=iphonesimulator9.0
+  - XCODE_SDK=iphonesimulator8.4
