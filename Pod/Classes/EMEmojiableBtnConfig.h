@@ -83,7 +83,7 @@
 /**
  Font of information view
  */
-@property (assign,nonatomic) UIFont* informationViewFont;
+@property (strong,nonatomic) UIFont* informationViewFont;
 
 /**
  Text color of information view
