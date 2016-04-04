@@ -9,11 +9,14 @@ osx_image: xcode7.3
   # - bundle install --path=vendor/bundle --binstubs=vendor/bin
   # - cd Example && bundle exec pod install && cd -
 
-#xcode_workspace: Example/EMEmojiableBtn.xcworkspace
-#xcode_scheme: EMEmojiableBtn-Example
-#xcode_sdk: iphoneos9.3
-#env:
- # -CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" XCODE_SDK=iphoneos9.3
+
 podfile: Example/Podfile
+# cache: cocoapods
+# podfile: Example/Podfile
+#before_install:
+# - gem install cocoapods # Since Travis is not always on latest version
+# - pod install --project-directory=Example
+install:
+  - pod update
 script:
-    - xctool -workspace Example/EMEmojiableBtn.xcworkspace -scheme EMEmojiableBtn-Example -sdk iphoneos9.3 build test CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
+ - xctool -workspace Example/EMEmojiableBtn.xcworkspace -scheme EMEmojiableBtn-Example -sdk iphoneos9.3 build test CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
