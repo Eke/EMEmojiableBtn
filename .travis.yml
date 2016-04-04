@@ -9,7 +9,7 @@ osx_image: xcode7
   # - bundle install --path=vendor/bundle --binstubs=vendor/bin
   # - cd Example && bundle exec pod install && cd -
 
-xcode_workspace: Example/EMEmojiableBtn.xcodeproj
+xcode_workspace: Example/EMEmojiableBtn.xcworkspace
 xcode_scheme: EMEmojiableBtn_Example
 xcode_sdk: iphonesimulator
 env:
