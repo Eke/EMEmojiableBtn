@@ -17,7 +17,7 @@ podfile: Example/Podfile
 # - gem install cocoapods # Since Travis is not always on latest version
 # - pod install --project-directory=Example
 install:
-  - cd Examlpe/ 
+  - cd Example/
   - pod update
 script:
- - xcodebuild -workspace Example/EMEmojiableBtn.xcworkspace -scheme EMEmojiableBtn-Example -sdk iphoneos9.3 build test CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
+ - xctool -workspace Example/EMEmojiableBtn.xcworkspace -scheme EMEmojiableBtn-Example -sdk iphoneos9.3 build test CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
