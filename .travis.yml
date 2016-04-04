@@ -13,5 +13,4 @@ xcode_workspace: Example/EMEmojiableBtn.xcworkspace
 xcode_scheme: EMEmojiableBtn-Example
 xcode_sdk: iphoneos9.3
 env:
-  - CODE_SIGNING_REQUIRED=NO
-  - XCODE_SDK=iphoneos9.3
+  -CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY="" XCODE_SDK=iphoneos9.3
