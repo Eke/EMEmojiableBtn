@@ -13,7 +13,7 @@
 @property (nonatomic,strong) EMEmojiableBtnConfig *config;
 @property (strong,nonatomic) UIView *selectorBgView;
 @property (strong,nonatomic) UIView *optionsView;
-@property (strong,nonatomic) EMEmojiableInformationView *informationView;
+@property (strong,nonatomic)  EMEmojiableInformationView *informationView;
 @property (strong,nonatomic) UITapGestureRecognizer *singleTapGesture;
 @property (strong,nonatomic) UILongPressGestureRecognizer *longPressGesture;
 @property (assign,nonatomic) BOOL active;
@@ -83,7 +83,7 @@
         return;
     }
     if(_dataset == nil){
-        [NSException raise:@"Invalid _dataset value" format:@"_dataset can't be nil", _dataset];
+        [NSException raise:@"Invalid _dataset value" format:@"_dataset can't be nil"];
         return;
     }
     

@@ -13,9 +13,9 @@
 @protocol EMEmojiableBtnDelegate;
 @interface EMEmojiableBtn : UIButton
 @property (strong,nonatomic)  NSArray * _Nonnull dataset;
-@property (weak,readwrite) id <EMEmojiableBtnDelegate> delegate;
+@property (weak,readwrite) id <EMEmojiableBtnDelegate> _Nullable  delegate;
 
-- (instancetype)initWithFrame:(CGRect)frame withConfig:(EMEmojiableBtnConfig*)conf;
+- (instancetype _Nonnull)initWithFrame:(CGRect)frame withConfig:(EMEmojiableBtnConfig* _Nonnull)conf;
 @end
 
 @protocol EMEmojiableBtnDelegate <NSObject>

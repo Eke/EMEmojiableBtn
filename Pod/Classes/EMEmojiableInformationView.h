@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "EMEmojiableBtnConfig.h";
+#import "EMEmojiableBtnConfig.h"
 
 @interface EMEmojiableInformationView : UIView
 - (instancetype)initWithFrame:(CGRect)frame withConfig:(EMEmojiableBtnConfig*)config;
