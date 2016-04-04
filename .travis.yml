@@ -19,5 +19,6 @@ podfile: Example/Podfile
 install:
   - cd Example/
   - pod update
+  - cd ../
 script:
  - xctool -workspace Example/EMEmojiableBtn.xcworkspace -scheme EMEmojiableBtn-Example -sdk iphoneos9.3 build test CODE_SIGNING_REQUIRED=NO CODE_SIGN_IDENTITY=""
