@@ -9,7 +9,7 @@
 
 To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-There's also an [Swift implementation](https://raw.githubusercontent.com/lojals/JOEmojiableBtn) developed by [lojals](https://raw.githubusercontent.com/lojals).
+There's also an [Swift implementation](https://github.com/lojals/JOEmojiableBtn) developed by [lojals](https://github.com/lojals).
 
 
 ## Installation
@@ -47,7 +47,7 @@ button.dataset = @[
 ### 2. Custom styled instance
 #### Example Code
 
-With this instance you can fully custom your component. Following the **EMEmojiableBtn** variables.
+With this instance you can fully custom your component. Following the **EMEmojiableBtnConfig** variables.
 
 You can custom your selector with the following variables, used in the 
 
@@ -80,7 +80,7 @@ button.dataset = @[
 
 ![image](http://i.imgur.com/G6PmoDE.gif)
 
-#### Available customization options using **EMEmojiableBtn**
+#### Available customization options using **EMEmojiableBtnConfig**
 * `size` - Size of each available option
 * `maxSize` - Size of option when it is hilighted
 * `minSize` - Size of options when one option is hilighted. When option is hilighted other options are smaller
