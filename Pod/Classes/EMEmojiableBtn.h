@@ -10,6 +10,13 @@
 #import "EMEmojiableOption.h"
 #import "EMEmojiableBtnConfig.h"
 
+typedef NS_ENUM(NSInteger, MenuDirection) {
+    MenuDirectionUpRight,
+    MenuDirectionUpLeft,
+    MenuDirectionDownRight,
+    MenuDirectionDownLeft,
+};
+
 @protocol EMEmojiableBtnDelegate;
 @interface EMEmojiableBtn : UIButton
 @property (strong,nonatomic)  NSArray * _Nonnull dataset;
